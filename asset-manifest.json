@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/adrian-the-dev/static/css/main.f855e6bc.css",
+    "main.js": "/adrian-the-dev/static/js/main.680f9a55.js",
+    "static/media/logo.svg": "/adrian-the-dev/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/adrian-the-dev/index.html",
+    "main.f855e6bc.css.map": "/adrian-the-dev/static/css/main.f855e6bc.css.map",
+    "main.680f9a55.js.map": "/adrian-the-dev/static/js/main.680f9a55.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.680f9a55.js"
+  ]
+}
