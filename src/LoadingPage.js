@@ -5,9 +5,9 @@ function LoadingPage() {
     return (
         <div className="intro">
             <div className="text-container">
-                <span className="element">Develop,</span>
-                <span className="element">Innovate,</span>
-                <span className="element">Empower.</span>
+                <span class="element-0s-delay">Develop,</span>
+                <span class="element-1s-delay">Innovate,</span>
+                <span class="element-2s-delay">Empower.</span>
             </div>
         </div>
     )

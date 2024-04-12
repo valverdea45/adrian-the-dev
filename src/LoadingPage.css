@@ -16,8 +16,6 @@
     align-items: center;
 }
 
-
-
 .text-container {
    display: flex;
    align-items: center;
@@ -30,4 +28,40 @@
    color: white;
 }
 
+.element-0s-delay {
+    animation-name: slideInUp;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
 
+.element-1s-delay {
+    animation-name: slideInUp;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.element-2s-delay {
+    animation-name: slideInUp;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(300px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
