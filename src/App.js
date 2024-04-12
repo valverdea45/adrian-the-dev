@@ -1,10 +1,16 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import React, { useState } from 'react'
+import LoadingPage from './LoadingPage';
+import Portfolio from './Portfolio';
 
 function App() {
+
+  const [loading, setLoading] = useState(true)
+
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Adrian YOU GOT THIS!!!!!
@@ -18,7 +24,16 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+
+      {
+        loading ? 
+        <LoadingPage/>
+        :
+        <Portfolio/>
+      }
+
+      
     </div>
   );
 }
