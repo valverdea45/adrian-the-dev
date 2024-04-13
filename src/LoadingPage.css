@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -29,39 +29,60 @@
 }
 
 .element-0s-delay {
-    animation-name: slideInUp;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-    opacity: 0;
+    animation-name: slideInUpThenFall;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
 }
 
 .element-1s-delay {
-    animation-name: slideInUp;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 1s;
-    animation-fill-mode: forwards;
-    opacity: 0;
+    animation-name: slideInUpThenFall;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.2s;
+    animation-fill-mode: both;
 }
 
 .element-2s-delay {
-    animation-name: slideInUp;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 2s;
-    animation-fill-mode: forwards;
-    opacity: 0;
+    animation-name: slideInUpThenFall;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.4s;
+    animation-fill-mode: both;
 }
 
-@keyframes slideInUp {
-    from {
-        transform: translateY(300px);
+@keyframes slideInUpThenFall {
+    0% {
+        transform: translateY(40px);
         opacity: 0;
+        rotate: 0deg;
     }
 
-    to {
+    50% {
         transform: translateY(0);
         opacity: 1;
+        rotate: 0deg;
+    }
+
+    80% {
+        transform: translateY(0);
+        opacity: 1;
+        rotate: 0deg;
+    }
+
+    85% {
+        rotate: -5deg;
+        transform: translateY(20px);
+    }
+
+    90% {
+        rotate: -8deg;
+        transform: translateY(30px);
+    }
+    
+    100% {
+        rotate: -5deg;
+        transform: translateY(50px);
     }
 }
+

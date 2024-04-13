@@ -7,7 +7,7 @@ function LoadingPage() {
             <div className="text-container">
                 <span class="element-0s-delay">Develop,</span>
                 <span class="element-1s-delay">Innovate,</span>
-                <span class="element-2s-delay">Empower.</span>
+                <span class="element-2s-delay">Inspire.</span>
             </div>
         </div>
     )
