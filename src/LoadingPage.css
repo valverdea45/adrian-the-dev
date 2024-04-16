@@ -14,6 +14,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    animation-name: backgroundDrop;
+    animation-duration: 1s;
+    animation-delay: 2.8s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+.grayscreen {
+    background-color: gray;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
 }
 
 .text-container {
@@ -30,14 +43,14 @@
 
 .element-0s-delay {
     animation-name: slideInUpThenFall;
-    animation-duration: 3s;
+    animation-duration: 2.5s;
     animation-timing-function: ease-out;
     animation-fill-mode: both;
 }
 
 .element-1s-delay {
     animation-name: slideInUpThenFall;
-    animation-duration: 3s;
+    animation-duration: 2.5s;
     animation-timing-function: ease-out;
     animation-delay: 0.2s;
     animation-fill-mode: both;
@@ -45,7 +58,7 @@
 
 .element-2s-delay {
     animation-name: slideInUpThenFall;
-    animation-duration: 3s;
+    animation-duration: 2.5s;
     animation-timing-function: ease-out;
     animation-delay: 0.4s;
     animation-fill-mode: both;
@@ -76,13 +89,21 @@
     }
 
     90% {
-        rotate: -8deg;
+        rotate: -5deg;
         transform: translateY(30px);
     }
     
     100% {
-        rotate: -5deg;
+        rotate: -8deg;
         transform: translateY(50px);
     }
 }
 
+@keyframes backgroundDrop {
+    from {
+        transform: translateY(0vh);
+    }
+    to {
+        transform: translateY(300vh);
+    }
+}

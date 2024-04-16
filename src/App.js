@@ -1,12 +1,23 @@
 // import logo from './logo.svg';
 import './App.css';
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import LoadingPage from './LoadingPage';
 import Portfolio from './Portfolio';
 
 function App() {
 
   const [loading, setLoading] = useState(true)
+
+  // useEffect(() => {
+  //   const timeoutId = setTimeout(() => {
+  //     setLoading(false)
+  //   }, 5000)
+  //   return () => {
+  //     clearTimeout(timeoutId)
+  //   }
+  // }, [])
+
+
 
   return (
     <div className="App">
@@ -28,7 +39,7 @@ function App() {
 
       {
         loading ? 
-        <LoadingPage/>
+        <LoadingPage setLoading={setLoading}/>
         :
         <Portfolio/>
       }
