@@ -1,9 +1,12 @@
 import React from "react";
+import "./Portfolio.css"
 
 function Portfolio() {
     return (
         <div>
-            <h1>Welcome</h1>
+            <div className="background">
+                <h1>Welcome</h1>
+            </div>
         </div>
     )
 }
