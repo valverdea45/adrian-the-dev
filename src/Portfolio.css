@@ -1,8 +1,45 @@
 .background {
-    background-color: gray;
-    display: flex;
+    background-color: rgb(8, 39, 59);
     height: 100vh;
     width: 100%;
+}
+
+.Headline {
+    color: rgb(228, 223, 223);
+    font: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    font-size: 45px
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.Headline-2 {
+    color: rgb(228, 223, 223);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
