@@ -8,7 +8,6 @@
     color: rgb(228, 223, 223);
     font: bold;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 50px;
     font-size: 45px
 }
 
@@ -25,7 +24,6 @@
     color: rgb(228, 223, 223);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    padding-bottom: 50px;
 }
 
 .fadeIn {
