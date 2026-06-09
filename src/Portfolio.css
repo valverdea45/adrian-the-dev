@@ -4,6 +4,32 @@
     width: 100%;
 }
 
+.name-headline {
+
+    background: linear-gradient(to right, #3b82f6, #a855f7, #14b8a6, #3b82f6);
+    background-size: 400% auto;
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transprent;
+
+    font-weight: bold;
+
+    animation: shift 5s linear infinite;
+
+}
+
+@keyframes shift {
+    0% {
+        background-position: 0% center;
+    }
+    100% {
+        background-position: 400% center;
+    }
+}
+
+
 .Headline {
     color: rgb(228, 223, 223);
     font: bold;
