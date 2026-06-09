@@ -3,7 +3,6 @@
     height: 100vh;
     width: 100%; */
 
-    body {
   /* 1. Reset margins and make the body fill the whole screen */
   margin: 0;
   width: 100vw;
@@ -23,8 +22,6 @@
 
   /* 4. Set the size of each grid square (40px by 40px) */
   background-size: 40px 40px, 40px 40px, 100% 100%;
-}
-
 }
 
 .name-headline {
