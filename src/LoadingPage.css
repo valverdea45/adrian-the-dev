@@ -11,6 +11,9 @@
     height: 100vh;
     width: 100%;
     background: black;
+    background-size: 400px 400px;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +26,7 @@
 }
 
 .grayscreen {
-    background-color: rgb(8, 39, 59);
+    background-color: rgb(35, 114, 154);
     height: 100vh;
     width: 100%;
     overflow: hidden;
