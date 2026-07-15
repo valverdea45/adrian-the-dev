@@ -81,6 +81,10 @@
     flex-wrap: wrap;
 }
 
+.codingLanguagesCard {
+    color: white
+}
+
 .Headline-2 {
     color: rgb(228, 223, 223);
     font-family: Arial, Helvetica, sans-serif;
