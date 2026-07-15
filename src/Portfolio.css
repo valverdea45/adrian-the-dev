@@ -68,6 +68,11 @@
     gap: 20px
 }
 
+.flexboxForCodingLanguages {
+    display: flex;
+    flex-direction: row;
+}
+
 .Headline-2 {
     color: rgb(228, 223, 223);
     font-family: Arial, Helvetica, sans-serif;
