@@ -11,7 +11,10 @@ function Portfolio() {
                         <h1 className="Headline-2">Full Stack Developer</h1>
                         <h1 className="Headline">Developing inspiring and captivating websites.</h1>
                         <div className="flexboxForCodingLanguages">
-                            <p classname="codingLanguagesCard">JavaScript</p> <p className="codingLanguagesCard">Python</p> <p className="codingLanguagesCard">React</p> <p className="codingLanguagesCard">Ruby</p>
+                            <p className="codingLanguagesCard">JavaScript</p>
+                            <p className="codingLanguagesCard">Python</p> 
+                            <p className="codingLanguagesCard">React</p> 
+                            <p className="codingLanguagesCard">Ruby</p>
                         </div>
                     </div>
                 </div>
